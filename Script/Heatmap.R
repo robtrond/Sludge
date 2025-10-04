@@ -7,7 +7,7 @@ library(tidyverse)
 library(corrplot)
 
 # Load data
-df_sludge <- read_csv("Sludge.csv")
+df_sludge <- read_csv("Data/Sludge.csv")
 
 # Filter data (Rowname < 48)
 df_sludge <- df_sludge %>%
